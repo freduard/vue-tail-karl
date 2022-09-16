@@ -8,59 +8,72 @@ import SupportIcon from './icons/IconSupport.vue'
 </script>
 
 <template>
-  <div class="flex flex-col items-center h-screen justify-center">
-      <WelcomeItem class="w-1/2">
+  <div class="flex flex-col h-screen justify-center text-xl bg-[#181818] text-white">
+    
+    <WelcomeItem class="w-2/3">
       <template #icon>
         <DocumentationIcon />
       </template>
-      <template #heading>Git init</template>
+      <template #heading>
+        <p class="font-semibold text-2xl">Git init</p>
+      </template>
 
-      Git init is one way to start a new project with Git. To start a repository, use either <code>git init</code> or <code>git clone</code> - not both.
+      <code class="text-pink-400">git init</code> is one way to start a new project with Git. To start a repository, use either <code class="text-pink-400">git init</code> or <code class="text-pink-400">git clone</code> - not both.
     </WelcomeItem>
 
-    <WelcomeItem class="w-1/2">
+    <WelcomeItem class="w-2/3">
       <template #icon>
         <ToolingIcon />
       </template>
-      <template #heading>Git add</template>
+      <template #heading>
+        <p class="font-semibold text-2xl">Git add</p>
+      </template>
 
-      The <code>git add</code> command adds new or changed files in your working directory to the Git staging area.
+      The <code class="text-pink-400">git add</code> command adds new or changed files in your working directory to the Git staging area.
     </WelcomeItem>
 
-    <WelcomeItem class="w-1/2">
+    <WelcomeItem class="w-2/3">
       <template #icon>
         <EcosystemIcon />
       </template>
-      <template #heading>Git status</template>
+      <template #heading>
+        <p class="font-semibold text-2xl">Git status</p>
+      </template>
 
-      <code>git status</code> shows the current state of your Git working directory and staging area.
+      <code class="text-pink-400">git status</code> shows the current state of your Git working directory and staging area.
     </WelcomeItem>
 
-    <WelcomeItem class="w-1/2">
+    <WelcomeItem class="w-2/3">
       <template #icon>
         <CommunityIcon />
       </template>
-      <template #heading>Git commit -m</template>
+      <template #heading>
+        <p class="font-semibold text-2xl">Git commit -m</p>
+      </template>
 
-      <code>git commit</code> creates a commit, which is like a snapshot of your repository. These commits are snapshots of your entire repository at specific times. You should make new commits often, based around logical units of change.
+      <code class="text-pink-400">git commit</code> creates a commit, which is like a snapshot of your repository. These commits are snapshots of your entire repository at specific times. You should make new commits often, based around logical units of change.
     </WelcomeItem>
 
-    <WelcomeItem class="w-1/2">
+    <WelcomeItem class="w-2/3">
       <template #icon>
         <SupportIcon />
       </template>
-      <template #heading>Git push</template>
+      <template #heading>
+        <p class="font-semibold text-2xl">Git push</p>
+      </template>
 
-      <code>git push</code> updates the remote branch with local commits. It is one of the four commands in Git that prompts interaction with the remote repository. You can also think of <code>git push</code> as update or publish.
+      <code class="text-pink-400">git push</code> updates the remote branch with local commits. It is one of the four commands in Git that prompts interaction with the remote repository. You can also think of <code class="text-pink-400">git push</code> as update or publish.
     </WelcomeItem>
 
-    <WelcomeItem class="w-1/2">
+    <WelcomeItem class="w-2/3">
       <template #icon>
         <SupportIcon />
       </template>
-      <template #heading>Git remote</template>
+      <template #heading>
+        <p class="font-semibold text-2xl">Git remote</p>
+      </template>
 
-      <code>git remote</code> manages the set of remotes that you are tracking with your local repository.
+      <code class="text-pink-400">git remote</code> manages the set of remotes that you are tracking with your local repository.
     </WelcomeItem>
   </div>
 

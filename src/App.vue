@@ -1,12 +1,19 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
+
 </script>
 
 <template>
   <header>
+
   </header>
   <div class="flex">
+    <div class="flex flex-col items-center justify-center bg-[#181818] w-full">
+      <img src="./assets/images/icons8-pig-96.png" alt="pig" class="w-96">
+      <HelloWorld msg="Roosa põssa" />
+      
+    </div>
     
 
   <main class="">
